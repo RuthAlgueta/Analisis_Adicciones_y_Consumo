@@ -1,0 +1,14 @@
+import base64
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+import seaborn as sns
+import streamlit as st
+from io import BytesIO, StringIO
+from matplotlib import pyplot as plt
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import accuracy_score, auc, classification_report, confusion_matrix, roc_curve
+from sklearn.model_selection import train_test_split
+from streamlit_option_menu import option_menu
